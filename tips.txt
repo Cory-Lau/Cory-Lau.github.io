@@ -1,0 +1,23 @@
+MULTIPLE STYLE TAGS IN HTML
+You can use <div> or <span> tags. If the element is very small use span tag.
+style=”property:value”
+If you want to add more than one property , than make sure that you separate them by semicolon ( ;).And enclose them by ,one pair of double inverted commas(“”).
+style=”property1 : value1 ; property2 : value2”
+
+METADATA
+  <!-- metadata is information about the html document -->
+
+ID'S
+  <!-- ID is for something unique. Use class otherwise. container is to allign in the
+    middle and with appropriate margins -->
+
+CSS
+ . is for a class since container is a class that we used in index.html
+
+ to style the div with id="branding"
+ header #branding
+
+another way to center/style this image is to put in a paragraph and text-align
+<p style ="text-align:center">  <img src="./images/preview.png" style="width:128px; height:100px;"></p>
+
+<img src="./images/preview.png" class="centered"> in CSS is img.centered {} not img .centered {} idk why
