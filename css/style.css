@@ -1,0 +1,264 @@
+body{
+  /*-font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5; */
+
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding:0;
+  margin: 0;
+  background-color: #f4f4f4;
+
+}
+/* Global */
+/* . is for a class since container is a class that we used in index.html */
+.container{
+  width:80%;
+  margin: auto;
+  overflow: hidden; /* when something is outside of a div, hides it not scroll*/
+}
+
+/* unordered list */
+ul {
+  margin:0;
+  padding: 0;
+}
+
+p {
+  margin:0;
+}
+
+.aboutMeSide{
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 10px;
+  padding-bottom: 4px;
+  background: #323232;
+  color:white;
+  text-align: left;
+
+
+}
+  .dark{
+    padding: 20px;
+    background: #323232;
+    color:white;
+    text-align: left;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, Serif; font-size: 16px;
+
+
+}
+
+/*
+.gray{
+  color:#323232;
+}
+*/
+
+/* Header */
+header{
+  background: #323232; /* gray */
+  color: #E5E1D6; /* off white */
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #829CD0 3px solid; /* e8491d orange, 829cd0 blue */
+}
+
+/* a is for the a tag (a href). For the links in the header */
+header a{
+  color: #E5E1D6;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+
+/* for the list components */
+header li{
+  float:left;
+  display: inline;
+  padding: 0 20px 0 20px; /* makes Home, About, Services list horizontally instead of up and down */
+}
+
+/* to style the div with id="branding" */
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .smaller {
+  color:#E5E1D6;
+  font-size: 12px;
+}
+
+header .current a{
+  color:#829CD0;
+}
+
+header a:hover{
+  color:#829CD0;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+header .home a{
+  font-size: 90%;
+  font-family: "Gill Sans", sans-serif;
+}
+
+/* Showcase */
+#showcase {
+  min-height: 450px;
+
+  background:url('../images/IMG_1733.jpg') no-repeat 0 -350px;
+  background-size: cover;
+  text-align: center;
+  /* outline for text
+  text-shadow: -.15px -.15px 0 #000,
+		.15px -.15px 0 #000,
+		-.15px .15px 0 #000,
+		.15px .15px 0 #000; */
+  color: #E5E1D6;
+}
+
+#showcase h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+  filter: drop-shadow(0px 0px 9px black);
+}
+
+#showcase p{
+  font-size: 20px;
+    filter: drop-shadow(0px 0px 9px black);
+}
+
+#newsletter{
+  padding: 10px;
+  color: #E5E1D6;
+  background: #323232;
+
+}
+
+#newsletter h1{
+  font-size: 14px;
+  border-bottom-color: #829CD0;
+}
+
+/*
+#newsletter .image{
+  width:30px;
+  height:30px;
+  display: block;
+  margin-left: 50%;
+  margin-right: 50%;
+  align-items: center;
+}
+*/
+
+#newsletter .floatleft{
+  float: left;
+}
+
+#newsletter .floatright{
+  float: right;
+}
+
+/* Boxes */
+#boxes{
+  margin-top: 20px;
+}
+
+#boxes .box{
+  float: left;
+  margin-left: 15px;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Sidebar (no space between tag and id)*/
+aside#sidebar{
+  float:right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+aside#sidebar img{
+height: 500px;
+width: 100%;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width: 65%;
+}
+
+/* Resume PDF display */
+article#resume{
+  float: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* projects */
+ul#projects{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+
+img.centered{
+  display: block;
+  margin: 0 auto;
+  width:200px;
+  height: 150px;
+}
+
+
+footer{
+  padding:10px;
+  margin-top: 20px;
+  color: #E5E1D6;
+  background-color: #323232;
+  text-align: center;
+  border-top: #829CD0 3px solid;
+  border-bottom: #323232 1px solid;
+  font-family: "Gill Sans", sans-serif;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  /* Get rid of floats to fix when smaller screen size*/
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  /* Showcase */
+  #showcase {
+    background:url('../images/IMG_1733.jpg') no-repeat 0 0;
+    background-size: cover;
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <!-- metadata is information about the html document -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Resume for me">
+    <meta name="keywords" content="web design, coding">
+    <meta name="author" content="Cory Lau">
+    <!-- title is the words that appear on the TAB in browers -->
+    <title>Cory Lau | Resume </title>
+    <link rel="stylesheet" href="./css/style.css"
+  </head>
+
+  <body>
+    <header>
+      <!-- ID is for something unique. Use class otherwise. container is to allign in the
+        middle and with appropriate margins -->
+      <div class="container">
+        <div id="branding">
+          <h1 class="home"><a href="index.html">My Website</a></h1>
+        </div>
+        <nav>
+          <!-- ul is an unordered list -->
+          <ul>
+            <li><a href="index.html">Overview</a></li>
+            <li><a href="aboutMe.html">About Me</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li class="current"><a href="resume.html">Resume</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <section id="main">
+      <div class="container">
+        <article id="resume">
+          <h1>Resume (Downloadable)</h1>
+          <iframe src=".\otherFiles\CoryLauCSResume.pdf" scrolling="no" style= "width:100%; height: 1125px; overflow:hidden;">
+          </iframe>
+        </article>
+      </div>
+    </section>
+  </body>
+</html>
