@@ -250,8 +250,9 @@ footer{
   header nav,
   header nav li,
   #newsletter h1,
-  article#resume,
   article#main-col,
+  article#main,
+  article#resume,
   aside#sidebar{
     float:none;
     text-align: center;
@@ -264,11 +265,6 @@ footer{
     width: 90%;
   }
 
-  article#main{
-    float:none;
-    text-align: center;
-    width:100%;
-  }
 
   header {
     padding-bottom: 20px;
