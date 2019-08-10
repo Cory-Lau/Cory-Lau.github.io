@@ -231,6 +231,11 @@ img.centered{
   height: 150px;
 }
 
+iframe{
+  width: 100%;
+  height: 1125px;
+}
+
 
 footer{
   padding:10px;
@@ -252,7 +257,6 @@ footer{
   #newsletter h1,
   article#main-col,
   article#main,
-  article#resume,
   aside#sidebar{
     float:none;
     text-align: center;
@@ -265,9 +269,20 @@ footer{
     width: 90%;
   }
 
+  article#resume{
+    float:none;
+    text-align: center;
+    width: 100%;
+    height: 60%s
+  }
 
   header {
     padding-bottom: 20px;
+  }
+
+  iframe{
+    width: 100%;
+    height: 575px;
   }
 
   #showcase {
