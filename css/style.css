@@ -1,7 +1,6 @@
 body{
-  /*-font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  line-height: 1.5; */
+
+/* NOTE: Showcase image is .JPG not .jpg. Used twice in this file */
 
   font: 15px/1.5 Arial, Helvetica, sans-serif;
   padding:0;
@@ -274,9 +273,8 @@ footer{
     padding-bottom: 20px;
   }
 
-  /* Showcase */
   #showcase {
-    background:url('../images/IMG_1733.jpg') no-repeat 0 0;
+    background:url('../images/IMG_1733.JPG') no-repeat 0 0;
     background-size: cover;
   }
 }
