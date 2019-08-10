@@ -250,6 +250,7 @@ footer{
   header nav,
   header nav li,
   #newsletter h1,
+  article#resume,
   article#main-col,
   aside#sidebar{
     float:none;
@@ -274,7 +275,7 @@ footer{
   }
 
   #showcase {
-    background:url('../images/IMG_1733.JPG') no-repeat 0 0;
+    background:url('../images/IMG_1733.JPG') no-repeat 0 0px;
     background-size: cover;
   }
 }
