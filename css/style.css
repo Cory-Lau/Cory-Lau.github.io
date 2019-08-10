@@ -179,8 +179,7 @@ header .home a{
 
 #boxes .box{
   float: left;
-  width: 30%;
-  margin-left: 15px;
+  width: 31%;
   padding: 10px;
   text-align: center;
 }
@@ -214,6 +213,7 @@ article#resume{
   float: none;
   text-align: center;
   font-size: 16px;
+  width: 100%
 }
 
 /* projects */
@@ -258,11 +258,17 @@ footer{
     width: 100%;
   }
 
-    #boxes .box{
-      float:none;
-      text-align: center;
-      width: 90%;
-    }
+  #boxes .box{
+    float:none;
+    text-align: center;
+    width: 90%;
+  }
+
+  article#main{
+    float:none;
+    text-align: center;
+    width:100%;
+  }
 
   header {
     padding-bottom: 20px;
