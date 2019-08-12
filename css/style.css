@@ -257,14 +257,17 @@ footer{
   #newsletter h1,
   article#main-col,
   article#main,
-  #boxes .box,
   aside#sidebar{
     float:none;
     text-align: center;
     width: 100%;
   }
 
-
+  #boxes .box{
+    float:none;
+    text-align: center;
+    width: 98%;
+    }
 
   article#resume{
     float:none;
@@ -279,6 +282,7 @@ footer{
 
   iframe{
     width: 60%;
+    align: middle;
   }
 
   #showcase {
