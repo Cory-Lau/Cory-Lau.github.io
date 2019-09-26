@@ -13,7 +13,7 @@ ID'S
 
 CSS
  . is for a class since container is a class that we used in index.html
-
+# is for id's
  to style the div with id="branding"
  header #branding
 
