@@ -192,7 +192,7 @@ header .home a{
 /* Sidebar (no space between tag and id)*/
 aside#sidebar{
   float:right;
-  width: 30%;
+  width: 33%;
   margin-top: 10px;
 }
 
