@@ -231,12 +231,6 @@ img.centered{
   height: 150px;
 }
 
-img.centered2{
-  display: block;
-  margin: 0 auto;
-  width:150px;
-  height: 100px;
-}
 
 iframe{
   width: 100%;
