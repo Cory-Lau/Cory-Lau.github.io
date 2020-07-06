@@ -1,4 +1,4 @@
-MULTIPLE STYLE TAGS IN HTML
+﻿MULTIPLE STYLE TAGS IN HTML
 You can use <div> or <span> tags. If the element is very small use span tag.
 style=”property:value”
 If you want to add more than one property , than make sure that you separate them by semicolon ( ;).And enclose them by ,one pair of double inverted commas(“”).
@@ -16,6 +16,10 @@ CSS
 # is for id's
  to style the div with id="branding"
  header #branding
+
+you can add multiple CSS classes to one element 
+ex) <div class = city capital> and it'll use .city { color:red } AND .capital { background-color: green }
+
 
 another way to center/style this image is to put in a paragraph and text-align
 <p style ="text-align:center">  <img src="./images/preview.png" style="width:128px; height:100px;"></p>
