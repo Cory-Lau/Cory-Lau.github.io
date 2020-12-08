@@ -12,6 +12,8 @@ body{
   background-color: #f4f4f4;
   height: 100%;
   position: relative;
+  overflow-x:hidden;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /* Global */
 /* . is for a class since container is a class that we used in index.html */
@@ -19,6 +21,7 @@ body{
   width:80%;
   margin: auto;
   overflow: hidden; /* when something is outside of a div, hides it not scroll*/
+
 }
 
 
@@ -253,9 +256,7 @@ footer{
   border-bottom: #323232 1px solid;
   font-family: "Gill Sans", sans-serif;
   bottom: 0;
-
   width: 100%;
- 
 }
 
 /* Media Queries */
