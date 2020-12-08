@@ -248,6 +248,7 @@ footer{
   border-bottom: #323232 1px solid;
   font-family: "Gill Sans", sans-serif;
   bottom: 0px;
+  position: fixed;
 }
 
 /* Media Queries */
